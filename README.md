@@ -1,30 +1,46 @@
-# Gita Saathi
+# 🕉️ Gita Saathi
 
-Independent, bilingual (English/हिन्दी) Bhagavad Gita website. React + Vite + TypeScript. Not affiliated with gitachat.in.
+**Independent bilingual (English / हिन्दी) Bhagavad Gita website**  
+Built with **React + Vite + TypeScript**
 
-## Run
-    npm install
-    npm run dev        # development
-    npm run build      # production build (base path /gita-saathi/)
-    npm run validate   # checks verse data
+> Not affiliated with gitachat.in or any other Gita website.
 
-## Deploy (GitHub Pages)
-1. Create repo `gita-saathi` under your account and push this folder to `main`.
-2. Repo Settings > Pages > Source: **GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` builds and publishes to https://pawanbaheti.github.io/gita-saathi/.
-Routing uses `HashRouter`, so page refresh works on GitHub Pages.
+### 🔗 Live Demo
+**[https://pawanbaheti.github.io/gita-saathi-app/](https://pawanbaheti.github.io/gita-saathi-app/)**
 
-## Languages
-- Site language: `src/locales/en.json`, `hi.json` (same keys in both).
-- Verse language (Sanskrit / हिन्दी / English): separate setting, saved separately.
+---
 
-## Data
-`public/data/verses.json` is built by `npm run data` from AdiyogiArts/gita-json (MIT).
-It has 701 records: Chapter 13 includes the opening "Arjuna uvacha" verse (13.1).
-**Licence warning:** English/Hindi texts are credited to other authors. Verify redistribution rights before publishing.
+## ✨ Features
 
-## Chat / search
-Local keyword retrieval in the browser. Not generative AI. Lookup is keyword search, not semantic search.
+- Complete Bhagavad Gita (701 verses, including Chapter 13 opening verse)
+- Full bilingual support (English + हिन्दी)
+- Separate verse language setting (Sanskrit / Hindi / English)
+- Local keyword-based search & chat (works offline after loading)
+- Clean and responsive UI
+- No backend, no ads, no tracking
 
-## Not done yet
-Russian/Spanish (not required), screenshot-vs-site visual comparison, mobile testing, chapter descriptions. Festival articles are short original summaries, shorter than the reference site's.
+---
+
+## 🛠️ Tech Stack
+
+- React 18 + TypeScript
+- Vite
+- React Router (HashRouter)
+- Local JSON data
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Create production build
+npm run build
+
+# Validate verse data
+npm run validate
