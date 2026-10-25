@@ -4,73 +4,74 @@
 
 ### A peaceful bilingual companion for the Bhagavad Gita
 
-**English + हिन्दी**
+**English + हिन्दी** · Built with React + TypeScript + Vite
 
 <br>
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pawanbaheti.github.io/gita-saathi-app/)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github)](https://github.com/pawanbaheti/gita-saathi-app)
 
 <br>
 
-*A simple, clean, and distraction-free way to read the Bhagavad Gita.*
+*An independent, clean, and distraction-free way to explore the wisdom of the Bhagavad Gita.*
 
 </div>
 
 ---
 
-## ✨ About
+## ✨ About the Project
 
-**Gita Saathi** is an independent web application created to help people explore the timeless wisdom of the Bhagavad Gita in a calm and modern way.
+**Gita Saathi** is a modern web application created to make the Bhagavad Gita more accessible in daily life.  
 
-It is designed to be peaceful, fast, and easy to use — whether you want to read a few verses or search for guidance on a specific topic.
+It offers a calm reading experience with full bilingual support (English + हिन्दी), easy verse navigation, and a simple search system — all without ads, login, or distractions.
 
 > This is an independent project and is **not affiliated** with any other Gita website.
 
 ---
 
-## 🌟 Key Features
+## 🌟 Features
 
-- 📖 Complete Bhagavad Gita (701 verses)
-- 🌐 Fully bilingual — **English** and **हिन्दी**
-- 🔤 Verse language options: Sanskrit / Hindi / English
-- 🔍 Keyword-based search to find relevant verses quickly
-- 💬 Simple chat-style lookup for topics
-- 📱 Fully responsive (works on mobile & desktop)
-- ⚡ Extremely fast and lightweight
-- 🚫 No ads, no tracking, no login required
-
----
-
-## 🛠️ Built With
-
-- **React** + **TypeScript**
-- **Vite**
-- Local JSON data
-- Modern CSS
+| Feature                        | Description                                              |
+|--------------------------------|----------------------------------------------------------|
+| 📖 Complete Gita               | All 701 verses (including Chapter 13 opening verse)     |
+| 🌐 Bilingual Interface         | Full support for **English** and **हिन्दी**             |
+| 🔤 Verse Language Options      | Sanskrit / Hindi / English                              |
+| 🔍 Keyword Search              | Find verses by keywords quickly                         |
+| 💬 Chat-style Lookup           | Ask simple questions and get relevant verses            |
+| 📱 Responsive Design           | Works smoothly on both mobile and desktop               |
+| 💾 Preference Saving           | Remembers your language settings                        |
+| ⚡ Fast Performance            | Built with Vite for instant loading                     |
+| 🚫 Privacy Focused             | No ads, no tracking, no backend                         |
 
 ---
 
-## 📦 Data Source
+## 🧠 How It Works
 
-Verse data is based on the open-source repository  
-[AdiyogiArts/gita-json](https://github.com/AdiyogiArts/gita-json) (MIT License).
-
-English and Hindi translations are credited to their original authors.
-
----
-
-## 🔗 Live Site
-
-**[https://pawanbaheti.github.io/gita-saathi-app/](https://pawanbaheti.github.io/gita-saathi-app/)**
-
----
-
-<div align="center">
-
-**Made with ❤️ by [Pawan Baheti](https://github.com/pawanbaheti)**
-
-<br>
-
-[![Visit Website](https://img.shields.io/badge/Visit_Gita_Saathi-0A66C2?style=for-the-badge)](https://pawanbaheti.github.io/gita-saathi-app/)
-
-</div>
+```text
+┌────────────────────┐
+│   User Opens App   │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│  Loads verses.json │  ← Local data (701 verses)
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│  User selects      │
+│  Language / Verse  │
+│  Language          │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│  Browse Chapters   │
+│  or Search Verses  │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│  Display Verse +   │
+│  Meaning + Context │
+└────────────────────┘
